@@ -1,0 +1,13 @@
+venv/
+data/
+data/*
+*.pkl
+*.joblib
+*.parquet
+*.csv
+*.gz
+*.zip
+*.txt
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
