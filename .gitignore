@@ -1,15 +1,29 @@
+# Entorno virtual
 venv/
+
+# Datos crudos y procesados
 data/
-data/*
+
+# Modelos serializados (Machine Learning)
 *.pkl
 *.joblib
+
+# Formatos de datos y compresión
 *.parquet
 *.csv
 *.gz
 *.zip
+
+# Archivos de texto (ignora todos excepto requirements.txt)
 *.txt
-.DS_Store
+!requirements.txt
+
+# Tokens, secretos y credenciales
+token.txt
+tokken.txt
+.env
+
+# Caché y temporales del sistema / Python / Jupyter
 __pycache__/
 .ipynb_checkpoints/
-venv/
-tokken.txt
+.DS_Store
